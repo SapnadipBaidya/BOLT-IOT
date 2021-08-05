@@ -1,8 +1,8 @@
 import requests
 import json, time
 from boltiot import Bolt
-api_key = "af75e60d-1600-4152-872d-ac60f9ad3982"
-device_id  = "BOLT8023410"
+api_key = "bolt api key || similar"
+device_id  = ""
 mybolt = Bolt(api_key, device_id)
 def get_doge_price():
    time.sleep(30)
